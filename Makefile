@@ -6,16 +6,19 @@ WORKDIR=/home/mila/d/delaunap/scratch/milabench
 CONFIG=${WORKDIR}/milabench/config/standard-cuda.yaml
 OUTPUT=${WORKDIR}/results
 
-export MILABENCH_BASE=${WORKDIR}results
+export MILABENCH_BASE=${WORKDIR}/results
 export MILABENCH_CONFIG=${WORKDIR}/milabench/config/standard-cuda.yaml
+export MILABENCH_GPU_ARCH=cuda
 
 install-conda:
 	wget https://repo.anaconda.com/miniconda/Miniconda3-py39_23.1.0-1-Linux-x86_64.sh
-	bash Miniconda3-py39_23.1.0-1-Linux-x86_64.sh -b -p $(pwd)/conda
-	./conda/bin/conda init
+	bash Miniconda3-py39_23.1.0-1-Linux-x86_64.sh -b -p ${WORKDIR}/conda
+	${WORKDIR}/conda/bin/conda init
 
 install-milabench:
-	./conda/bin/conda activate base
+	${WORKDIR}/conda/bin/conda init
+	export PATH="${WORKDIR}/conda/bin:${PATH}"
+	${WORKDIR}/conda/bin/conda activate base
 	pip install -e milabench/
 
 
@@ -44,3 +47,5 @@ clean-result:
 	rm -rf ${OUTPUT}/runs
 
 
+slurm:
+	sbatch --gpus-per-task=a100:1 --ntasks-per-node=8 --cpus-per-task=16 --mem=0 --reservation=milabench slurm.sh
