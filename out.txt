@@ -18528,3 +18528,467 @@ bert-tf32.D3 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instr
 bert-tf32.D3 [stderr]     visible = get_visible_devices()
 bert-tf32.D3 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 112, in get_visible_devices
 bert-tf32.D3 [stderr]     return BACKEND.get_visible_devices()
+bert-tf32.D3 [stderr] AttributeError: 'NoneType' object has no attribute 'get_visible_devices'
+bert-tf32.D3 [stderr] ================================================================================
+bert-tf32.D3 [overseer_error] {'message': "'NoneType' object has no attribute 'get_visible_devices'",
+ 'type': 'AttributeError'}
+bert-tf32.D4 [stderr] ================================================================================
+bert-tf32.D4 [stderr] voir: An error occurred in an overseer. Execution proceeds as normal.
+bert-tf32.D4 [stderr] ================================================================================
+bert-tf32.D4 [stderr] Traceback (most recent call last):
+bert-tf32.D4 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/phase.py", line 206, in _step_one
+bert-tf32.D4 [stderr]     next_phase = gen.send(ph.value)
+bert-tf32.D4 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/tools.py", line 54, in instrument
+bert-tf32.D4 [stderr]     yield from fn(ov, *args, **kwargs)
+bert-tf32.D4 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 129, in gpu_monitor
+bert-tf32.D4 [stderr]     visible = get_visible_devices()
+bert-tf32.D4 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 112, in get_visible_devices
+bert-tf32.D4 [stderr]     return BACKEND.get_visible_devices()
+bert-tf32.D4 [stderr] AttributeError: 'NoneType' object has no attribute 'get_visible_devices'
+bert-tf32.D4 [stderr] ================================================================================
+bert-tf32.D4 [overseer_error] {'message': "'NoneType' object has no attribute 'get_visible_devices'",
+ 'type': 'AttributeError'}
+bert-tf32.D7 [stderr] ================================================================================
+bert-tf32.D7 [stderr] voir: An error occurred in an overseer. Execution proceeds as normal.
+bert-tf32.D7 [stderr] ================================================================================
+bert-tf32.D7 [stderr] Traceback (most recent call last):
+bert-tf32.D7 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/phase.py", line 206, in _step_one
+bert-tf32.D7 [stderr]     next_phase = gen.send(ph.value)
+bert-tf32.D7 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/tools.py", line 54, in instrument
+bert-tf32.D7 [stderr]     yield from fn(ov, *args, **kwargs)
+bert-tf32.D7 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 129, in gpu_monitor
+bert-tf32.D7 [stderr]     visible = get_visible_devices()
+bert-tf32.D7 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 112, in get_visible_devices
+bert-tf32.D7 [stderr]     return BACKEND.get_visible_devices()
+bert-tf32.D7 [stderr] AttributeError: 'NoneType' object has no attribute 'get_visible_devices'
+bert-tf32.D7 [stderr] ================================================================================
+bert-tf32.D7 [overseer_error] {'message': "'NoneType' object has no attribute 'get_visible_devices'",
+ 'type': 'AttributeError'}
+bert-tf32.D1 [stderr] ================================================================================
+bert-tf32.D1 [stderr] voir: An error occurred in an overseer. Execution proceeds as normal.
+bert-tf32.D1 [stderr] ================================================================================
+bert-tf32.D1 [stderr] Traceback (most recent call last):
+bert-tf32.D1 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/phase.py", line 206, in _step_one
+bert-tf32.D1 [stderr]     next_phase = gen.send(ph.value)
+bert-tf32.D1 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/tools.py", line 54, in instrument
+bert-tf32.D1 [stderr]     yield from fn(ov, *args, **kwargs)
+bert-tf32.D1 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 129, in gpu_monitor
+bert-tf32.D1 [stderr]     visible = get_visible_devices()
+bert-tf32.D1 [stderr]   File "/Tmp/slurm.3187814.0/milabench_dev/voir/voir/instruments/gpu/__init__.py", line 112, in get_visible_devices
+bert-tf32.D1 [stderr]     return BACKEND.get_visible_devices()
+bert-tf32.D1 [stderr] AttributeError: 'NoneType' object has no attribute 'get_visible_devices'
+bert-tf32.D1 [stderr] ================================================================================
+bert-tf32.D1 [overseer_error] {'message': "'NoneType' object has no attribute 'get_visible_devices'",
+ 'type': 'AttributeError'}
+bert-tf32.D6 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.479286193847656, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.323932647705078, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.044816970825195, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.830974578857422, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.708650588989258, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.565240859985352, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.49106502532959, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.46875, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.480533599853516, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.515582084655762, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.561929702758789, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.608246803283691, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.640738487243652, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.647823333740234, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.632769584655762, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.614850044250488, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 90.90513326458647, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 101.33783304276382, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 90.42566796674427, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.621869087219238, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.669411659240723, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 77.72340151453568, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D3 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 98.43289570037145, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 9.752103805541992, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 83.55035967163528, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 76.84745268725476, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 9.848520278930664, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 91.47313931998002, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 87.42697042451734, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 81.87703114366099, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 9.93934154510498, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 93.00325020202291, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 10.007357597351074, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 93.46157129328539, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 98.8991426713021, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 10.03936767578125, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 90.46398889439949, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 111.45705785479086, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 93.73303807309173, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.018780708312988, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 100.2732579454434, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.915407180786133, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 98.73667397587009, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D3 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 99.9802128744116, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 9.861448287963867, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 95.32875969776492, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 89.01761313806203, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 75.07224471900187, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 10.006438255310059, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 88.8610423065923, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D3 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 104.62860947041281, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.027947425842285, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 85.8072513589757, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.28496265411377, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 100.77620145060634, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D3 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 101.3401908509254, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 80.96939699648323, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.48105239868164, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 90.21456765273172, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 82.83689505707251, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 10.615467071533203, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 92.72725565571078, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 94.19885644707747, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.6969633102417, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 87.6066717999796, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.744044303894043, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 79.85729581095877, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D3 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 96.28958872342517, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 94.12652097500981, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 83.69549841257461, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 10.78410530090332, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 99.0856501097081, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 10.84184455871582, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 103.62379511361394, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 91.33080979900015, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 10.928108215332031, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 96.57690154189913, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 94.50259122708957, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.041096687316895, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 85.63017264834795, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 83.9306468370675, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 90.8609164898871, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.170066833496094, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 82.40971118646263, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.299559593200684, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 98.8718315147942, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 98.21075661460243, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.414653778076172, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 94.68650183967884, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 84.50325922634065, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 85.57554918222343, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 11.506657600402832, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 93.59671383283185, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 12.169432640075684, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 98.19921662802426, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D3 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.572532653808594, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 12.335734367370605, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 83.95939918660937, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 12.169432640075684, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.6246919631958, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 12.50795841217041, 'task': 'train'}
+bert-tf32.D6 [data] {'rate': 87.03310892383355, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D2 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D7 [data] {'rate': 91.80288343447071, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 11.686996459960938, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 96.07229779063594, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D5 [data] {'loss': 12.169432640075684, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 90.92681586915445, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 12.335734367370605, 'task': 'train'}
+bert-tf32.D0 [data] {'rate': 99.94815210432121, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 12.684832572937012, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 12.169432640075684, 'task': 'train'}
+bert-tf32.D2 [data] {'rate': 101.58685799135502, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D4 [data] {'loss': 11.772424697875977, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 12.335734367370605, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 12.864786148071289, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 12.50795841217041, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 12.169432640075684, 'task': 'train'}
+bert-tf32.D3 [data] {'rate': 100.46576693509546, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D7 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 11.88056755065918, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 12.50795841217041, 'task': 'train'}
+bert-tf32.D6 [data] {'loss': 13.042221069335938, 'task': 'train'}
+bert-tf32.D0 [data] {'loss': 12.684832572937012, 'task': 'train'}
+bert-tf32.D2 [data] {'loss': 12.335734367370605, 'task': 'train'}
+bert-tf32.D3 [data] {'loss': 12.335734367370605, 'task': 'train'}
+bert-tf32.D7 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D4 [data] {'loss': 12.014527320861816, 'task': 'train'}
+bert-tf32.D4 [data] {'rate': 89.60466371964272, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D0 [data] {'loss': 12.864786148071289, 'task': 'train'}
+bert-tf32.D5 [data] {'loss': 12.684832572937012, 'task': 'train'}
+bert-tf32.D5 [data] {'rate': 111.07255569299717, 'task': 'train', 'units': 'items/s'}
+bert-tf32.D6 [data] {'loss': 13.211555480957031, 'task': 'train'}

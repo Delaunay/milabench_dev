@@ -27,3 +27,4 @@ run:
 
 slurm:
 	sbatch --gpus-per-task=a100:1 --ntasks-per-node=8 --cpus-per-task=16 --mem=0 --gpus 8 --reservation=milabench slurm.sh
+	salloc --partition=staff-idt --reservation=milabench --nodes 1 --gpus 8 --cpus 32 --mem=0
