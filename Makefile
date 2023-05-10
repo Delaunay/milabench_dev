@@ -16,8 +16,9 @@ prepare:
 	milabench prepare
 
 voir:
-	pip install git+https://github.com/Delaunay/voir.git@honor_visible_devices
-	milabench pip git+https://github.com/Delaunay/voir.git@honor_visible_devices
+	# pip install -e ${WORKDIR}/milabench
+	pip install -U -e ${WORKDIR}/voir
+	milabench pip -e ${WORKDIR}/voir -U
 
 setup: install prepare
 
