@@ -6,13 +6,14 @@ OUTPUT=${WORKDIR}/results
 export MILABENCH_BASE=${WORKDIR}/results
 export MILABENCH_CONFIG=${WORKDIR}/milabench/config/standard.yaml
 export MILABENCH_GPU_ARCH=cuda
+export MILABENCH_DASH=no
 
 install:
+	pip install -e ${WORKDIR}/milabench
 	milabench install
 
 prepare:
 	milabench prepare
-
 
 voir:
 	pip install git+https://github.com/Delaunay/voir.git@honor_visible_devices
