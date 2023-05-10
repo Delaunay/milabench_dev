@@ -13,6 +13,11 @@ install:
 prepare:
 	milabench prepare
 
+
+voir:
+	pip install git+https://github.com/Delaunay/voir.git@honor_visible_devices
+	milabench pip git+https://github.com/Delaunay/voir.git@honor_visible_devices
+
 setup: install prepare
 
 run:
