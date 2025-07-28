@@ -1,0 +1,14 @@
+
+
+
+[submodule "dashboard"]
+	path = dashboard
+	url = git@github.com:milabench/dashboard.git
+
+[submodule "deploy"]
+	path = deploy
+	url = git@github.com:milabench/deploy.git
+
+[submodule "milabench"]
+	path = milabench
+	url = git@github.com:milabench/milabench.git
