@@ -1,6 +1,3 @@
-
-
-
 [submodule "dashboard"]
 	path = dashboard
 	url = git@github.com:milabench/dashboard.git
@@ -12,3 +9,7 @@
 [submodule "milabench"]
 	path = milabench
 	url = git@github.com:milabench/milabench.git
+
+[submodule "data"]
+	path = data
+	url = git@github.com:milabench/cached_runs.git
