@@ -8,7 +8,7 @@ setup:
 	($(CONDA_ACTIVATE) py310; )
 
 front:
-	cd milabench_dash && npm run dev
+	cd dashboard && npm run dev
 
 back:
 	($(CONDA_ACTIVATE) py310; POSTGRES_USER=milabench_write POSTGRES_PSWD=1234 flask --app milabench.web.view:main run --debug)
